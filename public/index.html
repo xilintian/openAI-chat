@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Robot Chat</title>
+</head>
+
+<body>
+    <div id="chat-container">
+        <div id="chat-messages" class="markdown-body"></div>
+        <form id="message-form">
+            <input type="text" autocomplete="off" id="message-input" placeholder="输入消息..." required>
+            <button type="submit" id="submit-btn">发送</button>
+            <button type="button" id="clear-btn">清空消息列表</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
